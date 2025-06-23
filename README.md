@@ -1,3 +1,3 @@
 
-Placeholder for manuscript-related changepoint code for Lindscott and
-Wallace (20XX).
+Placeholder for manuscript-related changepoint code for Linscott and
+Wallace (202X).
