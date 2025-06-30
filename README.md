@@ -1,3 +1,3 @@
 
-Placeholder for manuscript-related changepoint code for Lindscott and
+Placeholder for manuscript-related changepoint code for Linscott and
 Wallace et al. (20XX).
