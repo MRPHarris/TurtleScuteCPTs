@@ -1,3 +1,39 @@
 
-Placeholder for manuscript-related changepoint code for Linscott and
-Wallace et al. (20XX).
+## Monte-carlo changepoint analysis of turtle scute growth rates
+
+This repository contains data and code to replicate the monte-carlo
+changepoint analysis performed in Lindscott and Wallace et al. (202X),
+*Bomb radiocarbon reveals keratin growth dynamics in loggerhead
+(*Caretta caretta*) and green (*Chelonia mydas*) turtles*, accepted for
+publication in Marine Biology. Changepoint analysis was used to
+empirically shifts in the growth rates of the analysed turtle scute
+records, whilst accounting for the age uncertainty inherent to the
+radiocarbon dating used to develop the age models. Stacked probability
+density functions of the changepoints across multiple individuals were
+used to identify periods of widespread change across the sampled
+population.
+
+To use this repository, follow the steps below. For any
+comments/questions/issues, contact Matt at <m.harris@gns.cri.nz>. This
+guide assumes you have (1) R and Rstudio installed, and (2) a basic
+understanding of how R and R packages work.
+
+1.  Download this repository and unzip it to somewhere that makes sense
+    on your machine.
+
+2.  Open the .Rproj file. It should launch into a blank workspace in
+    Rstudio.
+
+3.  Open ‘CPT-analysis-script.R’ under /scripts-and-documents/
+
+4.  Follow the instructions therein.
+
+5.  For more exploratory analysis and method development, open the
+    ‘Turtle-scute-writeup.Rmd’ notebook. It should render to a word
+    document, assuming you have ms office installed.
+
+Note: This repository relies on a helper R package,
+[turtleCPTs](https://github.com/MRPHarris/turtleCPTs), for most of the
+underlying functions. If you want to get ‘under the hood’ and pick apart
+the underlying code, you’ll probably need to head over to that
+repository pick apart the functions therein.
