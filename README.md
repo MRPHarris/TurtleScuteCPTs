@@ -2,7 +2,7 @@
 ## Monte-carlo changepoint analysis of turtle scute growth rates
 
 This repository contains data and code to replicate the monte-carlo
-changepoint analysis performed in Lindscott and Wallace et al. (2025),
+changepoint analysis performed in Lindscott and Wallace et al. (2026),
 *Bomb radiocarbon reveals keratin growth dynamics in loggerhead
 (*Caretta caretta*) and green (*Chelonia mydas*) turtles*, published in 
 Marine Biology. Changepoint analysis was used to
