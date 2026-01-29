@@ -2,11 +2,11 @@
 ## Monte-carlo changepoint analysis of turtle scute growth rates
 
 This repository contains data and code to replicate the monte-carlo
-changepoint analysis performed in Lindscott and Wallace et al. (202X),
+changepoint analysis performed in Lindscott and Wallace et al. (2025),
 *Bomb radiocarbon reveals keratin growth dynamics in loggerhead
-(*Caretta caretta*) and green (*Chelonia mydas*) turtles*, accepted for
-publication in Marine Biology. Changepoint analysis was used to
-empirically shifts in the growth rates of the analysed turtle scute
+(*Caretta caretta*) and green (*Chelonia mydas*) turtles*, published in 
+Marine Biology. Changepoint analysis was used to
+empirically identify shifts in the growth rates of the analysed turtle scute
 records, whilst accounting for the age uncertainty inherent to the
 radiocarbon dating used to develop the age models. Stacked probability
 density functions of the changepoints across multiple individuals were
@@ -36,4 +36,4 @@ Note: This repository relies on a helper R package,
 [turtleCPTs](https://github.com/MRPHarris/turtleCPTs), for most of the
 underlying functions. If you want to get ‘under the hood’ and pick apart
 the underlying code, you’ll probably need to head over to that
-repository pick apart the functions therein.
+repository and pick apart the functions therein.
